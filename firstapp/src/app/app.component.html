@@ -1,0 +1,16 @@
+<h1>Hello {{name}}</h1>
+
+<h2>{{company}}</h2>
+
+<img [src]="imgLink" height="200px">
+
+<input [type]="inpType">
+
+<button (click)="printData()">Click</button>
+
+<div class="circle" [class.available]="isAvailable"></div>
+
+<app-product [pname]="'Samsung M51'" [imgUrl]="'https://cdn.pricebaba.com/prod/images/product/mobile/71775/samsung-galaxy-m51-xxl-5203252.jpg'" />
+<app-product [pname]="'Iphone 14'" [imgUrl]="'https://m.media-amazon.com/images/I/61cwywLZR-L._AC_UF1000,1000_QL80_.jpg'" />
+
+<app-category/>
